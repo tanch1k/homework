@@ -1,0 +1,30 @@
+.b-accordion{
+	margin: 20px;
+}
+.b-accordion__title{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-family: Georgia, serif;
+}
+.b-accordion__title-txt{
+	border-bottom: 1px dotted #000;
+}
+.b-accordion__title:hover{
+	color: grey;
+	cursor: pointer;
+}
+.b-accordion__description{
+	display: none;
+	font-size: 12px;
+	color: #666;
+	text-transform: uppercase;
+}
+.b-accordion__description.show{
+	display: block;
+}
+.b-list{
+	margin-top: 12px;
+	margin-left: 0;
+	padding-left: 20px
+}
